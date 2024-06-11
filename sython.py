@@ -106,12 +106,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO ⚚ 𝘼𝙍𝘼𝘽𝙀𝙍 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 ⚚
+**☆ WELCOME TO ⚚ سورس ماكس ⚚
 ☆ VERSION : 1.3
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ SOURCE ⚚ 𝘼𝙍𝘼𝘽𝙀𝙍 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 ⚚ : @Haider_1h1**
+☆ SOURCE ⚚ سورس ماكس ⚚ : @lhIllll**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -515,20 +515,20 @@ async def spammer(event):
     
 @sython.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل | ⚚ 𝘼𝙍𝘼𝘽𝙀𝙍 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 ⚚
+      await event.reply("""السـورس يعمـل | ⚚ 𝘼سورس ماكس ⚚
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-- المطور : محمد | ⚚ 𝘼𝙍𝘼𝘽𝙀𝙍 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 ⚚
+- المطور : هوبي | ⚚ سورس ماكس ⚚
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 
-قناة السورس : https://t.me/zxajdkko9999
+قناة السورس : https://t.me/lhIllll
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""SY OWNER : @VIPS80"""
+      await event.reply("""SY OWNER : @lpt0i"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
