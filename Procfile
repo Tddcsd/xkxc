@@ -1,1 +1,1 @@
-worker: bash sython.py
+worker: python3 ze.py
