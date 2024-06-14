@@ -41,14 +41,14 @@ ze.start()
 @ze.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await ze(JoinChannelRequest("@قناة السورس"))
+        await ze(JoinChannelRequest("@lhIllll"))
     except BaseException:
         pass
         
 @ze.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await ze(JoinChannelRequest("@قناة السورس"))
+        await ze(JoinChannelRequest("@lhIllll"))
     except BaseException:
         pass
       
@@ -56,7 +56,7 @@ async def join_channel(event):
 @ze.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await ze(JoinChannelRequest("@كروب دعم"))
+        await ze(JoinChannelRequest("@lhIllll"))
     except BaseException:
         pass  
         
@@ -81,7 +81,7 @@ logging.basicConfig(
 
 
 DEVS = [
-    ايديك,
+    7329904670,
 ]
 DEL_TIME_OUT = 60
 normzltext = "1234567890"
@@ -93,7 +93,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await ze(JoinChannelRequest("@يوزر المطور 1"))
+        await ze(JoinChannelRequest("@lhjjji"))
     except BaseException:
         pass
 
@@ -459,8 +459,8 @@ async def _(event):
 ♔ عبارة قصيرة⛧
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ❖╎عبارة قصيرة𐇮
-❖╎𝐝𝐞𝐯 : @يوزر المطور 1
-❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @قناة السورس 
+❖╎𝐝𝐞𝐯 : @lhjjji
+❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @lhIllll 
 ❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.7 - revised 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
@@ -473,10 +473,10 @@ async def _(event):
     await event.edit(f'''
 𖣘𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔 𝒔𝒐𝒖𝒓𝒄𝒆 𝒛𝒆𖣘
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-❖╎𝐃𝐄𝐕❶:@يوزر المطور 1
-❖╎𝐃𝐄𝐕❷:@مساعد المطور
-❖╎𖣘اسم السورس𖣘
-❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @قناة السورس
+❖╎𝐃𝐄𝐕❶:@lhjjji
+❖╎𝐃𝐄𝐕❷:@lpt0i
+❖╎سورس ماكس
+❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @lhIllll
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
 @ze.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
