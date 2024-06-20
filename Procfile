@@ -1,1 +1,1 @@
-worker: python3 ze.py
+worker: bash shahm.py

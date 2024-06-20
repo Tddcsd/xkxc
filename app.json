@@ -1,1 +1,52 @@
-{"name":"سورس ماكس","description":" هلا بكم في سورس ماكس  !","logo":"https://telegra.ph/file/63825197f2fd4a85c32f5.jpg","stack":"container","repository":"https://t.me/ lhIllll","keywords":["python","chatbot","telegrambot"],"website":"https://t.me/zxd_c","env":{"APP_ID":{"description":"الايـبـي ايــدي","value":"","required":true},"APP_HASH":{"description":"الايـبـي هــاش","value":"","required":true},"TERMUX":{"description":"كود تيرمكس","value":"","required":true},"TOKEN":{"description":"توكن البوت","value":"","required":true},"BOT_USERNAME":{"description":"يوزر البوت بدون ـ@ـ","value":"","required":true}}}
+{
+    "name": "SHAHM",
+    "description": "اهلا بكم في تنصيب سورس شهم تجميع النقاط",
+    "logo": "https://telegra.ph/file/295cab58309aa90b43226.jpg",
+    "stack": "container",
+    "repository": "https://t.me/ql8ql",
+    "keywords": ["python", "chatbot", "telegrambot"],
+    "website": "https://t.me/ql8ql",
+    "env": {
+        "APP_ID": {
+            "description": "الايـبـي ايــدي",
+            "value": "",
+            "required": true
+        },
+        "DEVLO": {
+            "description": "ايدي حساب التحكم اذا ماتعرفه لاتغيرة",
+            "value": "6066647930",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "الايـبـي هــاش",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TG_BOT_USERNAME": {
+            "description": "هنا ضع معرف بوتك بدون @",
+            "value": "",
+            "required": true
+        },
+        "TG_BOT_TOKEN": {
+            "description": "هنا ضع توكن بوتك الذي صنعته",
+            "value": "",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+        },
+        {
+            "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

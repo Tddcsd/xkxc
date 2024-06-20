@@ -1,14 +1,15 @@
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 import os
-APP_ID = os.environ.get("26631191")
-APP_HASH = os.environ.get("742f486d5265bf0b86fc89385245659e")
-BOT_USERNAME = os.environ.get("BOT_USERNAME")
-session = os.environ.get("TERMUX")
-SESSION = os.environ.get("TERMUX")
-token = os.environ.get("TOKEN")
-ze = TelegramClient(StringSession(session), APP_ID, APP_HASH)
-bot = TelegramClient("bot", APP_ID, APP_HASH).start(bot_token=token)
+APP_ID = os.environ.get("APP_ID")
+APP_HASH = os.environ.get("APP_HASH")
+session1 = os.environ.get("TERMUX")
+SESSION1 = os.environ.get("TERMUX")
+DEVLOO = os.environ.get("DEVLO")
+CHNA = os.environ.get("CHNA")
+TG_BOT_USERNAME = os.environ.get("TG_BOT_USERNAME")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
+abbas = TelegramClient(StringSession(session1), APP_ID, APP_HASH)
 ispay = ['yes']
 ispay2 = ['yes']
-bot.start()
+
