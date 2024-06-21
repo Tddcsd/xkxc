@@ -1,1 +1,2 @@
-worker: bash shahm.py
+web: python -m http.server $PORT
+worker: python3 -m ShizukaXMusic
